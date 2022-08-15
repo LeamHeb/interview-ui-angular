@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'pat-rv-interview-angular';
+  title = 'pat-rv-angular-nterview';
 }
