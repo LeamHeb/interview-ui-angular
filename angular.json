@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "pat-rv-interview-angular": {
+    "interview-ui-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pat-rv-interview-angular",
+            "outputPath": "dist/interview-ui-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "pat-rv-interview-angular:build:production"
+              "browserTarget": "interview-ui-angular:build:production"
             },
             "development": {
-              "browserTarget": "pat-rv-interview-angular:build:development"
+              "browserTarget": "interview-ui-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "pat-rv-interview-angular:build"
+            "browserTarget": "interview-ui-angular:build"
           }
         },
         "test": {
