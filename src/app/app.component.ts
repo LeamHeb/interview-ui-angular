@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor(public sampleService: SampleService) {
   }
-  title = 'pat-rv-angular-interview';
+  title = 'angular-interview';
 
   public helloWorld() {
     this.sampleService.helloWorld().subscribe(data =>{
